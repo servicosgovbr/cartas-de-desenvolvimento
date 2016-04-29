@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
     <nome><![CDATA[ADE de Exclusão do Simples Nacional 2012 - Consulta Débitos]]></nome>
-    <sigla/>
-    <nomes-populares/>
+    <sigla>augusto</sigla>
+    <nomes-populares>
+        <item>augusto valentim da costa</item>
+        <item>augusto</item>
+    </nomes-populares>
     <descricao><![CDATA[Consultar débitos referentes ao Ato Declaratório de Exclusão do Simples Nacional 2012.]]></descricao>
-    <contato/>
+    <contato><![CDATA[declaraçao imposto de renda baixa]]></contato>
     <gratuito>true</gratuito>
     <solicitantes/>
     <tempo-total-estimado>
-        <descricao/>
+        <entre max="" min="" unidade=""/>
+        <descricao><![CDATA[por este motivo nao poso fazernada]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
@@ -36,6 +40,8 @@
     <areas-de-interesse>
         <item>Economia e Finanças</item>
         <item>Assistência à Criança e ao Adolescente</item>
+        <item>Proteção Social</item>
+        <item>Recursos humanos</item>
     </areas-de-interesse>
     <palavras-chave/>
     <legislacoes/>
