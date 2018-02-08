@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-janser</id>
+    <dbId>961</dbId>
+    <nome>Teste Janser</nome>
+    <sigla>tstjanser</sigla>
+    <descricao>Teste Janser</descricao>
+    <contato>Teste</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="697">
+            <tipo>Teste</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1852">
+            <titulo>Teste</titulo>
+            <descricao>teste</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1920" tipo="aplicativo-movel">
+                        <descricao>Teste</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/90" dbId="43381">
+        <nomeOrgao>Serviço Federal de Processamento de Dados (SERPRO)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2184">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Telecomunicações</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2064">janser</item>
+        <item id="2065">testejanser</item>
+        <item id="2066">tstjanser</item>
+    </palavras-chave>
+</servico>
