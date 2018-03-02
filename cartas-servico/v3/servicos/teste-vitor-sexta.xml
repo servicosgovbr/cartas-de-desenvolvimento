@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-vitor-sexta</id>
+    <dbId>965</dbId>
+    <nome>Teste Vitor Sexta</nome>
+    <sigla>TVS</sigla>
+    <nomes-populares>
+        <item id="819">Teste</item>
+        <item id="820">Vitor</item>
+        <item id="821">Sexta</item>
+    </nomes-populares>
+    <descricao>Teste Vitor Sexta Teste Vitor Sexta Teste Vitor Sexta Teste Vitor Sexta</descricao>
+    <contato>Contato Novo</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>false</servico-digital>
+    <link-servico-digital></link-servico-digital>
+    <solicitantes>
+        <solicitante id="701">
+            <tipo>Solicitante Novo</tipo>
+            <requisitos>Solicitante que acabou de chegar no portal.</requisitos>
+        </solicitante>
+        <solicitante id="702">
+            <tipo>Solicitante Novo 2</tipo>
+            <requisitos>Solicitante que acabou de chegar no portal.</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="10" unidade="dias-uteis"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>dias</unidade>
+        <descricao>Teste Vitor Sexta Teste Vitor Sexta Teste Vitor Sexta Teste Vitor Sexta Teste Vitor Sexta Teste Vitor Sexta Teste Vitor Sexta</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1856">
+            <titulo>Etapa 1 Nova</titulo>
+            <descricao>Solicitante que acabou de chegar no portal.</descricao>
+            <documentos>
+                <default>
+                    <item id="1310">Documento</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="182">
+                        <descricao>Custo 3</descricao>
+                        <moeda>R$</moeda>
+                        <valor>100,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1923" tipo="e-mail">
+                        <descricao>vitor@email.com</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2188">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Alimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2076">Df</item>
+        <item id="2077">df</item>
+        <item id="2078">fff</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="654">relacionado</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>21</item>
+    </servicos-relacionados>
+</servico>
