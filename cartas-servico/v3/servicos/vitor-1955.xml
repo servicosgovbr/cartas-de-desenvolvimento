@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>vitor-1955</id>
+    <dbId>966</dbId>
+    <nome>Vitor 1955</nome>
+    <sigla>Teste 3</sigla>
+    <nomes-populares>
+        <item id="825">Nome 1</item>
+        <item id="826">Nome 2</item>
+        <item id="827">Nome 3</item>
+    </nomes-populares>
+    <descricao>Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova</descricao>
+    <contato>CKJkjfkddsgnmbs,jfdhgdfshjglkjhgjklçjgkljhklj jkdfkjahsfgjkhfdjkghjfkdg kdjfkajsfkjdskfjdaslkjfklasdjflkjçaksld</contato>
+    <gratuito>false</gratuito>
+    <porcentagem-manual>false</porcentagem-manual>
+    <servico-digital>true</servico-digital>
+    <link-servico-digital>www.uol.com.br</link-servico-digital>
+    <solicitantes>
+        <solicitante id="704">
+            <tipo>Solictante</tipo>
+            <requisitos>Requiatido fjkdhsjfhjsadhgjhfghjfdhgkhdjgfdhghfjdkhl</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <nao-estimado-ainda/>
+        <descricao>dfsfsdfdsfsdfvcbvc gfdsgsdfgfd fbbvbvcbvxcbxvcbvcxcbvb</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao>adafadsfsadfasdfsdfsfdadf</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1859">
+            <titulo>Etapa 2</titulo>
+            <descricao>Desfdsfdsafasfsdafsadfasdfasdfsdf</descricao>
+            <documentos>
+                <default>
+                    <item id="1312">Documentação 1</item>
+                </default>
+                <caso id="385" descricao="Caso 2">
+                    <documento>
+                        <id>1311</id>
+                        <descricao>Documentação 1</descricao>
+                    </documento>
+                </caso>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="183">
+                        <descricao>Custo 1</descricao>
+                        <moeda>R$</moeda>
+                        <valor>10,00</valor>
+                        <valorVariavel></valorVariavel>
+                        <statusCustoVariavel>0</statusCustoVariavel>
+                    </custo>
+                    <custo id="184">
+                        <descricao>Depende</descricao>
+                        <moeda>R$</moeda>
+                        <valorVariavel>Custo</valorVariavel>
+                        <statusCustoVariavel>1</statusCustoVariavel>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1924" tipo="postal">
+                        <descricao>hjdhjashfkdja</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="1860">
+            <titulo>Etapa 2</titulo>
+            <descricao>dsaDSADSAD</descricao>
+            <documentos>
+                <default>
+                    <item id="1313">ASDaSDSADSADsadasdsad</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1926" tipo="web-consultar">
+                        <descricao>SADASDASDsaDADsa</descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="1927" tipo="presencial">
+                        <descricao>saddASDSADaDSA</descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="386" descricao="Caso 2">
+                    <canal-de-prestacao id="1925" tipo="sms">
+                        <descricao>saddsadsadasdasda</descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+        <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+    </orgao>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="2191">Cidadãos</item>
+        <item idSegmento="2" idServicoSegmento="2192">Órgãos e entidades públicas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Educação</item>
+        <item>Difusão Cultural</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="2082">dsa</item>
+        <item id="2083">dasd</item>
+        <item id="2084">asdas</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="657">asDKJDFDKLSJFKDSKAFJSDKLJFKLJSMXCNVMNCVBM,NXVCM,BMVXC</item>
+        <item id="658">sadsfdsfsdfsdcxvbcxbvcx rgfdgfd</item>
+    </legislacoes>
+    <servicos-relacionados>
+        <item>881</item>
+        <item>705</item>
+        <item>701</item>
+    </servicos-relacionados>
+</servico>
