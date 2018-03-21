@@ -1,71 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servicos xmlns="http://servicos.gov.br/v3/schema">
     <servico>
-        <id>cadastrar-se-no-sicaf</id>
-        <dbId>2</dbId>
-        <nome>Cadastrar-se no SICAF</nome>
-        <sigla></sigla>
-        <descricao>O serviço tem como finalidade cadastrar e habilitar parcialmente pessoas físicas ou jurídicas, interessadas em participar de licitações realizadas por órgãos/entidades do Poder Executivo Federal, bem como acompanhar o desempenho dos fornecimentos contratados.</descricao>
-        <contato></contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="446">
-                <tipo>Empresas e particulares com interesse de fornecer ao Poder Público</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <atendimento-imediato/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1472">
-                <titulo>Realizar cadastro</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1671" tipo="e-mail">
-                            <descricao>cogrl.df.spoa@fazenda.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1670" tipo="web">
-                            <descricao>https://www.comprasnet.gov.br/seguro/index.asp?login=0</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
-            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="1787">Cidadãos</item>
-            <item idSegmento="3" idServicoSegmento="1788">Empresas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Urbanismo</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1302">sicaf</item>
-            <item id="1303">poder público</item>
-            <item id="1304">venda</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="414">lei do sicaf</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>solicitacao-de-conexao-gesac</id>
         <dbId>12</dbId>
         <nome>Solicitação de Conexão GESAC</nome>
@@ -243,6 +178,71 @@ Em até 12 meses após a publicação da autorização de uso de radiofrequênci
         </legislacoes>
     </servico>
     <servico>
+        <id>cadastrar-se-no-sicaf</id>
+        <dbId>2</dbId>
+        <nome>Cadastrar-se no SICAF</nome>
+        <sigla></sigla>
+        <descricao>O serviço tem como finalidade cadastrar e habilitar parcialmente pessoas físicas ou jurídicas, interessadas em participar de licitações realizadas por órgãos/entidades do Poder Executivo Federal, bem como acompanhar o desempenho dos fornecimentos contratados.</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="446">
+                <tipo>Empresas e particulares com interesse de fornecer ao Poder Público</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao></descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1472">
+                <titulo>Realizar cadastro</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1671" tipo="e-mail">
+                            <descricao>cogrl.df.spoa@fazenda.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1670" tipo="web">
+                            <descricao>https://www.comprasnet.gov.br/seguro/index.asp?login=0</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1929" dbId="37529">
+            <nomeOrgao>Ministério da Fazenda (MF)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="1787">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="1788">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Urbanismo</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1302">sicaf</item>
+            <item id="1303">poder público</item>
+            <item id="1304">venda</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="414">lei do sicaf</item>
+        </legislacoes>
+    </servico>
+    <servico>
         <id>selenium-servico-ponto-focal-3</id>
         <dbId>620</dbId>
         <nome>Selenium Serviço Ponto Focal 3</nome>
@@ -396,287 +396,6 @@ Requisitos para obter o serviço: Encaminhar toda a documentação</descricao>
 Decreto nº 2.615/1998: Aprova o Regulamento do Serviço de Radiodifusão Comunitária
 
 Portaria nº. 4334/2015 (Norma 1/2015): Regulamenta, no âmbito do Ministério das Comunicações, o Serviço de Radiodifusão Comunitária.</item>
-        </legislacoes>
-    </servico>
-    <servico>
-        <id>participacao-em-feiras-internacionais-de-turismo-embratur</id>
-        <dbId>16</dbId>
-        <nome>Participação em feiras internacionais de turismo - EMBRATUR</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="386">feiras internacionais de turismo</item>
-            <item id="387">feiras embratur</item>
-            <item id="388">FITUR</item>
-            <item id="389">ANATO</item>
-            <item id="390">ITB</item>
-            <item id="391">BTL</item>
-            <item id="392">IMEX</item>
-            <item id="393">FIEXPO</item>
-            <item id="394">IFTM Top Resa</item>
-            <item id="395">FIT</item>
-            <item id="396">FITPAR</item>
-            <item id="397">IMEX America</item>
-            <item id="398">WTM</item>
-        </nomes-populares>
-        <descricao>Participação como coexpositor no estande do Brasil/Embratur nas feiras internacionais de turismo previstas na Agenda de Promoção Comercial do Turismo Brasileiro no Exterior para promoção do Brasil como destino turístico e sede de eventos.
-A confirmação da participação depende de procedimento de inscrição e análise. Caso a inscrição seja aprovada dentro das vagas disponíveis no estande do Brasil/Embratur em cada feira, o coexpositor participará em posto de trabalho próprio na feira de interesse.</descricao>
-        <contato>Diretoria de Inteligência Competitiva e Promoção Turística - DIPRO &lt;br/&gt;
-Coordenação-Geral de Promoção e Eventos - CGPE  &lt;br/&gt;
-Divisão de Feiras - DFE  &lt;br/&gt;
-Telefone: 61 2023 8632  &lt;br/&gt;
-E-mail: inscricao.feiras@embratur.gov.br</contato>
-        <gratuito>false</gratuito>
-        <servico-digital>false</servico-digital>
-        <solicitantes>
-            <solicitante id="315">
-                <tipo>Operador/agência de turismo, Destination Management Company (DMC), meio de hospedagem</tipo>
-                <requisitos>* Envio do Certificado do CADASTUR válido para o e-mail inscricao.feiras@embratur.gov.br. Saiba mais sobre o CADASTUR em: http://www.cadastur.turismo.gov.br.
-* Aprovação da inscrição, dentro das vagas, na análise técnica feita pela Embratur.</requisitos>
-            </solicitante>
-            <solicitante id="316">
-                <tipo>Transportadora turística, organizadora de eventos, parque temático e acampamento turístico.</tipo>
-                <requisitos>* Envio do Certificado do CADASTUR válido para o e-mail inscricao.feiras@embratur.gov.br. Saiba mais sobre o CADASTUR em: http://www.cadastur.turismo.gov.br.
-* Aprovação da inscrição, dentro das vagas, na análise técnica feita pela Embratur.</requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <entre min="30" max="180" unidade="dias-corridos"/>
-            <descricao>Tal prazo varia conforme a feira.</descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="1282">
-                <titulo>Verificar Agenda de Promoção Comercial do Turismo Brasileiro no Exterior</titulo>
-                <descricao>A Agenda de Promoção Comercial do Turismo Brasileiro no Exterior contempla as feiras nas quais está prevista a participação da Embratur, com estande próprio, para promoção do Brasil como destino turístico e sede de eventos.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1722" tipo="e-mail">
-                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="240" descricao="Portal Embratur &gt; AGENDA EVENTOS (canto inferior esquerdo da página)">
-                        <canal-de-prestacao id="1719" tipo="web-consultar">
-                            <descricao>http://www.embratur.gov.br/piembratur-new/opencms/agenda_eventos/index.html</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="241" descricao="Portal Visit Brasil &gt; aba TRADE &gt; aba AGENDA &gt; mês a mês">
-                        <canal-de-prestacao id="1720" tipo="web-consultar">
-                            <descricao>http://www2.visitbrasil.com/visitbrasil/opencms/portalembratur/pt/cadastro-trade.html</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="242" descricao="Telefone">
-                        <canal-de-prestacao id="1721" tipo="telefone">
-                            <descricao>61 2023 8632</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1283">
-                <titulo>Cadastramento</titulo>
-                <descricao>Para recebimento dos informativos sobre a abertura dos períodos de inscrição para cada feira, é necessário que o interessado esteja cadastrado no banco de dados da área da Embratur responsável pelo envio desses informativos. Para isso, é necessário que o interessado realize seu cadastro.</descricao>
-                <documentos>
-                    <default>
-                        <item id="931">CADASTRO para informativos EMBRATUR descrito no link do  canal de prestação</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1725" tipo="telefone">
-                            <descricao>61 2023-8632</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1724" tipo="e-mail">
-                            <descricao>inscricao.ferias@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1723" tipo="web-preencher">
-                            <descricao>http://goo.gl/forms/6gpL7sHQ2L</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1284">
-                <titulo>Inscrição</titulo>
-                <descricao>Preencher o Formulário de Inscrição para a feira de interesse.</descricao>
-                <documentos>
-                    <default>
-                        <item id="932">O link para acesso ao Formulário de Inscrição para cada feira será fornecido nos informativos sobre a abertura dos períodos de inscrição.</item>
-                        <item id="933">CADASTUR: [http://www.cadastur.turismo.gov.br]</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1733" tipo="telefone">
-                            <descricao>61 2023 8632</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1732" tipo="e-mail">
-                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                    <caso id="243" descricao="Formulário de Inscrição IFTM Top Resa 2016">
-                        <canal-de-prestacao id="1726" tipo="web-inscrever-se">
-                            <descricao>http://goo.gl/forms/BW5Vi4SprF</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="244" descricao="Formulário de Inscrição JATA 2016">
-                        <canal-de-prestacao id="1727" tipo="web-inscrever-se">
-                            <descricao>http://goo.gl/forms/o4WUIO8GTm</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="245" descricao="Formulário de Inscrição FIT América Latina 2016">
-                        <canal-de-prestacao id="1728" tipo="web-inscrever-se">
-                            <descricao>http://goo.gl/forms/CBUVY49pvp</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="246" descricao="Formulário de Inscrição FITPAR 2016">
-                        <canal-de-prestacao id="1729" tipo="web-inscrever-se">
-                            <descricao>http://goo.gl/forms/qn0uNLMhzs</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="247" descricao="Formulário de Inscrição IMEX America 2016">
-                        <canal-de-prestacao id="1730" tipo="web-inscrever-se">
-                            <descricao>http://goo.gl/forms/vSauyhSJ1x</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                    <caso id="248" descricao="Formulário de Inscrição WTM 2016">
-                        <canal-de-prestacao id="1731" tipo="web-inscrever-se">
-                            <descricao>http://goo.gl/forms/UKMT6Ybiht</descricao>
-                        </canal-de-prestacao>
-                    </caso>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1285">
-                <titulo>Resultado da inscrição</titulo>
-                <descricao>Após o encerramento do período de inscrições, essas serão analisadas pelas áreas técnicas da Embratur envolvidas em cada feira. Após o período de análise, a Embratur informará a cada candidato o status de sua inscrição:  confirmado; em lista de espera.</descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1735" tipo="telefone">
-                            <descricao>61 2023 8632</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1734" tipo="e-mail">
-                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1286">
-                <titulo>Credencial para acesso à feira</titulo>
-                <descricao>Em caso de confirmação, a credencial para acesso à feira será registrada conforme dados informados na Inscrição. Essas credenciais serão enviadas aos coexpositores por e-mail; coletadas in loco; ou distribuídas na reunião pré-evento. Alterações nos dados da credencial depois de registrada e eventuais custos são de responsabilidade do coexpositor</descricao>
-                <documentos>
-                    <default>
-                        <item id="934">Preenchimento dos respectivos dados realizados na etapa de inscrição (Etapa 3)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1737" tipo="e-mail">
-                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
-                        </canal-de-prestacao>
-                        <canal-de-prestacao id="1736" tipo="presencial">
-                            <descricao>Retirar credencial no balcão da organizadora da feira in loco.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1287">
-                <titulo>Participação na feira internacional</titulo>
-                <descricao>A participação na feira internacional tem início com a reunião pré-evento. A reunião pré-evento ocorre, normalmente, na véspera do início da feira. Nos períodos da feira, o coexpositor participa em seu posto de trabalho no estande do Brasil/Embratur, prestando atendimento, pré-agendado ou não, no idioma da feira, aos visitantes interessados em seu produto. Recomenda-se que o coexpositor disponha de material promocional, impresso ou digital, também no idioma da feira.</descricao>
-                <documentos>
-                    <default>
-                        <item id="935">Credencial para acesso à feira</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1738" tipo="presencial">
-                            <descricao>Estande do Brasil/Embratur em cada feira. A localização exata do estande será informada no Manual de Apoio enviado pela Embratur aos coexpositores  por meio de e-mail.</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-            <etapa id="1288">
-                <titulo>Questionário de Avaliação</titulo>
-                <descricao>Ao final da participação em cada feira, o coexpositor deverá preencher o Questionário de Avaliação que será disponibilizado pela Embratur por e-mail.</descricao>
-                <documentos>
-                    <default>
-                        <item id="936">Preenchimento do Questionário de Avaliação Coexpositor PRIVADO constante no canal de prestação desta etapa</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default/>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1739" tipo="web-preencher">
-                            <descricao>http://goo.gl/forms/f8m5TEpR5x</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
-            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="3" idServicoSegmento="1621">Empresas</item>
-            <item idSegmento="2" idServicoSegmento="1622">Órgãos e entidades públicas</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Turismo</item>
-            <item>Transporte Aéreo</item>
-            <item>Transporte Hidroviário</item>
-            <item>Serviços Públicos</item>
-            <item>Relações Internacionais</item>
-            <item>Difusão Cultural</item>
-            <item>Comércio e Serviços</item>
-            <item>Educação</item>
-            <item>Esporte e Lazer</item>
-            <item>Cultura</item>
-            <item>Lazer</item>
-            <item>Patrimônio</item>
-            <item>Patrimônio Cultural</item>
-            <item>Transportes</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="930">turismo</item>
-            <item id="931">feiras</item>
-            <item id="932">evento</item>
-            <item id="933">internacional</item>
-            <item id="934">embratur</item>
-            <item id="935">FITUR</item>
-            <item id="936">ANATO</item>
-            <item id="937">ITB</item>
-            <item id="938">BTL</item>
-            <item id="939">IMEX</item>
-            <item id="940">FIEXPO</item>
-            <item id="941">IFTM</item>
-            <item id="942">FIT</item>
-            <item id="943">FITPAR</item>
-            <item id="944">WTM</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="313">http://www.planalto.gov.br/ccivil_03/leis/L8181.htm</item>
         </legislacoes>
     </servico>
     <servico>
@@ -1284,6 +1003,287 @@ A Guia de Trânsito é um documento obrigatório para que o cidadão transporte 
 (Portaria MJ 2.969/2012 - Valor da Indenização)[http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&amp;pagina=114&amp;data=23/11/2012]</item>
             <item id="641">(Estatuto do Desarmamento - Lei nº 10.826/2003)[http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2003-12-22;10826]
 (Decreto nº 5.123/2004)[http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2004-07-01;5123]</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>participacao-em-feiras-internacionais-de-turismo-embratur</id>
+        <dbId>16</dbId>
+        <nome>Participação em feiras internacionais de turismo - EMBRATUR</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="386">feiras internacionais de turismo</item>
+            <item id="387">feiras embratur</item>
+            <item id="388">FITUR</item>
+            <item id="389">ANATO</item>
+            <item id="390">ITB</item>
+            <item id="391">BTL</item>
+            <item id="392">IMEX</item>
+            <item id="393">FIEXPO</item>
+            <item id="394">IFTM Top Resa</item>
+            <item id="395">FIT</item>
+            <item id="396">FITPAR</item>
+            <item id="397">IMEX America</item>
+            <item id="398">WTM</item>
+        </nomes-populares>
+        <descricao>Participação como coexpositor no estande do Brasil/Embratur nas feiras internacionais de turismo previstas na Agenda de Promoção Comercial do Turismo Brasileiro no Exterior para promoção do Brasil como destino turístico e sede de eventos.
+A confirmação da participação depende de procedimento de inscrição e análise. Caso a inscrição seja aprovada dentro das vagas disponíveis no estande do Brasil/Embratur em cada feira, o coexpositor participará em posto de trabalho próprio na feira de interesse.</descricao>
+        <contato>Diretoria de Inteligência Competitiva e Promoção Turística - DIPRO &lt;br/&gt;
+Coordenação-Geral de Promoção e Eventos - CGPE  &lt;br/&gt;
+Divisão de Feiras - DFE  &lt;br/&gt;
+Telefone: 61 2023 8632  &lt;br/&gt;
+E-mail: inscricao.feiras@embratur.gov.br</contato>
+        <gratuito>false</gratuito>
+        <servico-digital>false</servico-digital>
+        <solicitantes>
+            <solicitante id="315">
+                <tipo>Operador/agência de turismo, Destination Management Company (DMC), meio de hospedagem</tipo>
+                <requisitos>* Envio do Certificado do CADASTUR válido para o e-mail inscricao.feiras@embratur.gov.br. Saiba mais sobre o CADASTUR em: http://www.cadastur.turismo.gov.br.
+* Aprovação da inscrição, dentro das vagas, na análise técnica feita pela Embratur.</requisitos>
+            </solicitante>
+            <solicitante id="316">
+                <tipo>Transportadora turística, organizadora de eventos, parque temático e acampamento turístico.</tipo>
+                <requisitos>* Envio do Certificado do CADASTUR válido para o e-mail inscricao.feiras@embratur.gov.br. Saiba mais sobre o CADASTUR em: http://www.cadastur.turismo.gov.br.
+* Aprovação da inscrição, dentro das vagas, na análise técnica feita pela Embratur.</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="30" max="180" unidade="dias-corridos"/>
+            <descricao>Tal prazo varia conforme a feira.</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="1282">
+                <titulo>Verificar Agenda de Promoção Comercial do Turismo Brasileiro no Exterior</titulo>
+                <descricao>A Agenda de Promoção Comercial do Turismo Brasileiro no Exterior contempla as feiras nas quais está prevista a participação da Embratur, com estande próprio, para promoção do Brasil como destino turístico e sede de eventos.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1722" tipo="e-mail">
+                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="240" descricao="Portal Embratur &gt; AGENDA EVENTOS (canto inferior esquerdo da página)">
+                        <canal-de-prestacao id="1719" tipo="web-consultar">
+                            <descricao>http://www.embratur.gov.br/piembratur-new/opencms/agenda_eventos/index.html</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="241" descricao="Portal Visit Brasil &gt; aba TRADE &gt; aba AGENDA &gt; mês a mês">
+                        <canal-de-prestacao id="1720" tipo="web-consultar">
+                            <descricao>http://www2.visitbrasil.com/visitbrasil/opencms/portalembratur/pt/cadastro-trade.html</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="242" descricao="Telefone">
+                        <canal-de-prestacao id="1721" tipo="telefone">
+                            <descricao>61 2023 8632</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1283">
+                <titulo>Cadastramento</titulo>
+                <descricao>Para recebimento dos informativos sobre a abertura dos períodos de inscrição para cada feira, é necessário que o interessado esteja cadastrado no banco de dados da área da Embratur responsável pelo envio desses informativos. Para isso, é necessário que o interessado realize seu cadastro.</descricao>
+                <documentos>
+                    <default>
+                        <item id="931">CADASTRO para informativos EMBRATUR descrito no link do  canal de prestação</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1725" tipo="telefone">
+                            <descricao>61 2023-8632</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1724" tipo="e-mail">
+                            <descricao>inscricao.ferias@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1723" tipo="web-preencher">
+                            <descricao>http://goo.gl/forms/6gpL7sHQ2L</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1284">
+                <titulo>Inscrição</titulo>
+                <descricao>Preencher o Formulário de Inscrição para a feira de interesse.</descricao>
+                <documentos>
+                    <default>
+                        <item id="932">O link para acesso ao Formulário de Inscrição para cada feira será fornecido nos informativos sobre a abertura dos períodos de inscrição.</item>
+                        <item id="933">CADASTUR: [http://www.cadastur.turismo.gov.br]</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1733" tipo="telefone">
+                            <descricao>61 2023 8632</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1732" tipo="e-mail">
+                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="243" descricao="Formulário de Inscrição IFTM Top Resa 2016">
+                        <canal-de-prestacao id="1726" tipo="web-inscrever-se">
+                            <descricao>http://goo.gl/forms/BW5Vi4SprF</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="244" descricao="Formulário de Inscrição JATA 2016">
+                        <canal-de-prestacao id="1727" tipo="web-inscrever-se">
+                            <descricao>http://goo.gl/forms/o4WUIO8GTm</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="245" descricao="Formulário de Inscrição FIT América Latina 2016">
+                        <canal-de-prestacao id="1728" tipo="web-inscrever-se">
+                            <descricao>http://goo.gl/forms/CBUVY49pvp</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="246" descricao="Formulário de Inscrição FITPAR 2016">
+                        <canal-de-prestacao id="1729" tipo="web-inscrever-se">
+                            <descricao>http://goo.gl/forms/qn0uNLMhzs</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="247" descricao="Formulário de Inscrição IMEX America 2016">
+                        <canal-de-prestacao id="1730" tipo="web-inscrever-se">
+                            <descricao>http://goo.gl/forms/vSauyhSJ1x</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="248" descricao="Formulário de Inscrição WTM 2016">
+                        <canal-de-prestacao id="1731" tipo="web-inscrever-se">
+                            <descricao>http://goo.gl/forms/UKMT6Ybiht</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1285">
+                <titulo>Resultado da inscrição</titulo>
+                <descricao>Após o encerramento do período de inscrições, essas serão analisadas pelas áreas técnicas da Embratur envolvidas em cada feira. Após o período de análise, a Embratur informará a cada candidato o status de sua inscrição:  confirmado; em lista de espera.</descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1735" tipo="telefone">
+                            <descricao>61 2023 8632</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1734" tipo="e-mail">
+                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1286">
+                <titulo>Credencial para acesso à feira</titulo>
+                <descricao>Em caso de confirmação, a credencial para acesso à feira será registrada conforme dados informados na Inscrição. Essas credenciais serão enviadas aos coexpositores por e-mail; coletadas in loco; ou distribuídas na reunião pré-evento. Alterações nos dados da credencial depois de registrada e eventuais custos são de responsabilidade do coexpositor</descricao>
+                <documentos>
+                    <default>
+                        <item id="934">Preenchimento dos respectivos dados realizados na etapa de inscrição (Etapa 3)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1737" tipo="e-mail">
+                            <descricao>inscricao.feiras@embratur.gov.br</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1736" tipo="presencial">
+                            <descricao>Retirar credencial no balcão da organizadora da feira in loco.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1287">
+                <titulo>Participação na feira internacional</titulo>
+                <descricao>A participação na feira internacional tem início com a reunião pré-evento. A reunião pré-evento ocorre, normalmente, na véspera do início da feira. Nos períodos da feira, o coexpositor participa em seu posto de trabalho no estande do Brasil/Embratur, prestando atendimento, pré-agendado ou não, no idioma da feira, aos visitantes interessados em seu produto. Recomenda-se que o coexpositor disponha de material promocional, impresso ou digital, também no idioma da feira.</descricao>
+                <documentos>
+                    <default>
+                        <item id="935">Credencial para acesso à feira</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1738" tipo="presencial">
+                            <descricao>Estande do Brasil/Embratur em cada feira. A localização exata do estande será informada no Manual de Apoio enviado pela Embratur aos coexpositores  por meio de e-mail.</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1288">
+                <titulo>Questionário de Avaliação</titulo>
+                <descricao>Ao final da participação em cada feira, o coexpositor deverá preencher o Questionário de Avaliação que será disponibilizado pela Embratur por e-mail.</descricao>
+                <documentos>
+                    <default>
+                        <item id="936">Preenchimento do Questionário de Avaliação Coexpositor PRIVADO constante no canal de prestação desta etapa</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1739" tipo="web-preencher">
+                            <descricao>http://goo.gl/forms/f8m5TEpR5x</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/241" dbId="36723">
+            <nomeOrgao>Instituto Brasileiro de Turismo (EMBRATUR)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="1621">Empresas</item>
+            <item idSegmento="2" idServicoSegmento="1622">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Turismo</item>
+            <item>Transporte Aéreo</item>
+            <item>Transporte Hidroviário</item>
+            <item>Serviços Públicos</item>
+            <item>Relações Internacionais</item>
+            <item>Difusão Cultural</item>
+            <item>Comércio e Serviços</item>
+            <item>Educação</item>
+            <item>Esporte e Lazer</item>
+            <item>Cultura</item>
+            <item>Lazer</item>
+            <item>Patrimônio</item>
+            <item>Patrimônio Cultural</item>
+            <item>Transportes</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="930">turismo</item>
+            <item id="931">feiras</item>
+            <item id="932">evento</item>
+            <item id="933">internacional</item>
+            <item id="934">embratur</item>
+            <item id="935">FITUR</item>
+            <item id="936">ANATO</item>
+            <item id="937">ITB</item>
+            <item id="938">BTL</item>
+            <item id="939">IMEX</item>
+            <item id="940">FIEXPO</item>
+            <item id="941">IFTM</item>
+            <item id="942">FIT</item>
+            <item id="943">FITPAR</item>
+            <item id="944">WTM</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="313">http://www.planalto.gov.br/ccivil_03/leis/L8181.htm</item>
         </legislacoes>
     </servico>
     <servico>
@@ -27513,102 +27513,6 @@ De 30 dias quando houver especificação de rota, porém seja necessário consul
         </legislacoes>
     </servico>
     <servico>
-        <id>alteracoes-de-pos-outorga</id>
-        <dbId>9</dbId>
-        <nome>Alterações de Pós-Outorga</nome>
-        <sigla></sigla>
-        <nomes-populares>
-            <item id="640">Atos de Pós-Outorga</item>
-        </nomes-populares>
-        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
-        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
-
-Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
-
-Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
-
-Ministério da Ciência, Tecnologia, Inovações e Comunicações
-Telefone: (61) 2027-6000</contato>
-        <gratuito>false</gratuito>
-        <porcentagem-manual>false</porcentagem-manual>
-        <servico-digital>false</servico-digital>
-        <link-servico-digital></link-servico-digital>
-        <solicitantes>
-            <solicitante id="502">
-                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="1" unidade="dias-corridos"/>
-            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
-        </tempo-total-estimado>
-        <validade-documento>
-            <descricao></descricao>
-        </validade-documento>
-        <etapas>
-            <etapa id="1562">
-                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default>
-                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
-                    </default>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="100">
-                            <descricao></descricao>
-                            <moeda>R$</moeda>
-                            <valor>2.100,00</valor>
-                            <valorVariavel></valorVariavel>
-                            <statusCustoVariavel>0</statusCustoVariavel>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="1704" tipo="web">
-                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
-            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
-        </orgao>
-        <segmentos-da-sociedade>
-            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
-            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
-            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Comunicações</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="1483">Transferência de Outorga</item>
-            <item id="1484">Alteração de Quadro Societário</item>
-            <item id="1485">Pós-Outorga</item>
-            <item id="1486">Renovação</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="468">Alterações contratuais
-
-Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
-            <item id="469">Geral
-
-Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
-            <item id="470">Renovação/ revisão de outorga
-
-Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
-        </legislacoes>
-        <servicos-relacionados>
-            <item>492</item>
-            <item>462</item>
-        </servicos-relacionados>
-    </servico>
-    <servico>
         <id>servicocarlos3-29-08-17</id>
         <dbId>682</dbId>
         <nome>ServiçoCarlos3-29-08-17</nome>
@@ -34248,6 +34152,228 @@ Passo 3 - Confirmação - verificar as informações inseridas e finalizar o cad
         </legislacoes>
         <servicos-relacionados>
             <item>8</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>alteracoes-de-pos-outorga</id>
+        <dbId>9</dbId>
+        <nome>Alterações de Pós-Outorga</nome>
+        <sigla></sigla>
+        <nomes-populares>
+            <item id="640">Atos de Pós-Outorga</item>
+        </nomes-populares>
+        <descricao>De acordo com o Código Brasileiro de Telecomunicações – Lei nº 4.117, de 27 de agosto de 1962 - e com o Regulamento dos Serviços de Radiodifusão - Decreto nº 52.795, de 31 de outubro de 1963, após a obtenção da Outorga para prestação de Serviços de Radiodifusão, devem ser apresentadas ao Ministério todas as alterações realizadas na organização das entidades envolvidas seja para obtenção de anuência prévia seja para conhecimento e atualização dos cadastros mantidos nesta Pasta.</descricao>
+        <contato>Reclamações, sugestões, elogios e solicitação de informações das áreas de atuação do ministério podem ser feitas via sistema.
+
+Para isso, é preciso fazer um cadastro rápido e simples que o permitirá acompanhar o andamento da sua solicitação dentro do Ministério das Comunicações.
+
+Acesse o link [http://sistema.mc.gov.br/OuvidoriaWeb/externo/loginExterno.action?paramExterno=1]!
+
+Ministério da Ciência, Tecnologia, Inovações e Comunicações
+Telefone: (61) 2027-6000</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>false</servico-digital>
+        <link-servico-digital></link-servico-digital>
+        <solicitantes>
+            <solicitante id="502">
+                <tipo>Detentores de Outorgas de Radiodifusão</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="1" unidade="dias-corridos"/>
+            <descricao>O protocolo da solicitação é imediato e gratuito. Entretanto, o tempo empregado para conclusão da análise do processo pode variar devido às peculiaridades de cada processo, podendo também gerar custos.</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <descricao></descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1562">
+                <titulo>Solicitação de Alteração de Pós-Outorga</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default>
+                        <item id="1188">[Portal de Serviços](http://servicos.gov.br)</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="100">
+                            <descricao></descricao>
+                            <moeda>R$</moeda>
+                            <valor>2.100,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1704" tipo="web">
+                            <descricao>http://www.mc.gov.br/espaco-do-radiodifusor/atos-de-pos-outorga</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988" dbId="37525">
+            <nomeOrgao>Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="2" idServicoSegmento="1867">Órgãos e entidades públicas</item>
+            <item idSegmento="3" idServicoSegmento="1868">Empresas</item>
+            <item idSegmento="4" idServicoSegmento="1869">Demais segmentos (ONGs, organizações sociais, etc)</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Comunicações</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="1483">Transferência de Outorga</item>
+            <item id="1484">Alteração de Quadro Societário</item>
+            <item id="1485">Pós-Outorga</item>
+            <item id="1486">Renovação</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="468">Alterações contratuais
+
+Decreto-lei nº 236/1967; Decreto nº 85.064/1980; Lei 10.610 de 20 de dezembro de 2002; Portaria nº 355/2012; Lei nº 12.872/2013.</item>
+            <item id="469">Geral
+
+Lei nº 4.117/1962; Decreto nº 52.795/1963.</item>
+            <item id="470">Renovação/ revisão de outorga
+
+Decreto nº 88.066/1983; Portaria nº 153/2012; Portaria nº 329/2012.</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>492</item>
+            <item>462</item>
+        </servicos-relacionados>
+    </servico>
+    <servico>
+        <id>vitor-1955</id>
+        <dbId>966</dbId>
+        <nome>Vitor 1955</nome>
+        <sigla>Teste 3</sigla>
+        <nomes-populares>
+            <item id="825">Nome 1</item>
+            <item id="826">Nome 2</item>
+            <item id="827">Nome 3</item>
+        </nomes-populares>
+        <descricao>Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova Descrição Nova</descricao>
+        <contato>CKJkjfkddsgnmbs,jfdhgdfshjglkjhgjklçjgkljhklj jkdfkjahsfgjkhfdjkghjfkdg kdjfkajsfkjdskfjdaslkjfklasdjflkjçaksld</contato>
+        <gratuito>false</gratuito>
+        <porcentagem-manual>false</porcentagem-manual>
+        <servico-digital>true</servico-digital>
+        <link-servico-digital>www.uol.com.br</link-servico-digital>
+        <solicitantes>
+            <solicitante id="704">
+                <tipo>Solictante</tipo>
+                <requisitos>Requiatido fjkdhsjfhjsadhgjhfghjfdhgkhdjgfdhghfjdkhl</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <nao-estimado-ainda/>
+            <descricao>dfsfsdfdsfsdfvcbvc gfdsgsdfgfd fbbvbvcbvxcbxvcbvcxcbvb</descricao>
+        </tempo-total-estimado>
+        <validade-documento>
+            <tipo>Sem validade</tipo>
+            <quantidade>0</quantidade>
+            <unidade></unidade>
+            <descricao>adafadsfsadfasdfsdfsfdadf</descricao>
+        </validade-documento>
+        <etapas>
+            <etapa id="1859">
+                <titulo>Etapa 2</titulo>
+                <descricao>Desfdsfdsafasfsdafsadfasdfasdfsdf</descricao>
+                <documentos>
+                    <default>
+                        <item id="1312">Documentação 1</item>
+                    </default>
+                    <caso id="385" descricao="Caso 2">
+                        <documento>
+                            <id>1311</id>
+                            <descricao>Documentação 1</descricao>
+                        </documento>
+                    </caso>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="183">
+                            <descricao>Custo 1</descricao>
+                            <moeda>R$</moeda>
+                            <valor>10,00</valor>
+                            <valorVariavel></valorVariavel>
+                            <statusCustoVariavel>0</statusCustoVariavel>
+                        </custo>
+                        <custo id="184">
+                            <descricao>Depende</descricao>
+                            <moeda>R$</moeda>
+                            <valorVariavel>Custo</valorVariavel>
+                            <statusCustoVariavel>1</statusCustoVariavel>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1924" tipo="postal">
+                            <descricao>hjdhjashfkdja</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="1860">
+                <titulo>Etapa 2</titulo>
+                <descricao>dsaDSADSAD</descricao>
+                <documentos>
+                    <default>
+                        <item id="1313">ASDaSDSADSADsadasdsad</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="1926" tipo="web-consultar">
+                            <descricao>SADASDASDsaDADsa</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="1927" tipo="presencial">
+                            <descricao>saddASDSADaDSA</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="386" descricao="Caso 2">
+                        <canal-de-prestacao id="1925" tipo="sms">
+                            <descricao>saddsadsadasdasda</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/244" dbId="37528">
+            <nomeOrgao>Ministério da Educação (MEC)</nomeOrgao>
+        </orgao>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="2191">Cidadãos</item>
+            <item idSegmento="2" idServicoSegmento="2192">Órgãos e entidades públicas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Educação</item>
+            <item>Difusão Cultural</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="2082">dsa</item>
+            <item id="2083">dasd</item>
+            <item id="2084">asdas</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="657">asDKJDFDKLSJFKDSKAFJSDKLJFKLJSMXCNVMNCVBM,NXVCM,BMVXC</item>
+            <item id="658">sadsfdsfsdfsdcxvbcxbvcx rgfdgfd</item>
+        </legislacoes>
+        <servicos-relacionados>
+            <item>881</item>
+            <item>705</item>
+            <item>701</item>
         </servicos-relacionados>
     </servico>
 </servicos>
